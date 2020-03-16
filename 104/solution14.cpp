@@ -43,7 +43,7 @@ int main()
     /*
     for(int i = 0; i < points.size(); i++)
     {
-        cout << points[i].x << " " << points[i].y << endl;
+        cout << points[i].x - points[0].x << " " << points[i].y - points[0].y << endl;
     }*/
     // 適用於C++11之後的寫法
     for(const Point &point: points)
